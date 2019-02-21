@@ -5,7 +5,9 @@ if int % 5 == 0 && int % 3 == 0
   "FizzBuzz"
 elsif int % 3 == 0
     "Fizz"
-  else int % 5 == 0
+  elsif int % 5 == 0
     "Buzz"
+  else int ! %5 && ! % 3
+    "nil"
   end
 end
