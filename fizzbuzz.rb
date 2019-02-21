@@ -5,7 +5,7 @@ def fizzbuzz (int)
     "fizz"
   elsif int % 5
     "Buzz"
-  elsif int % 3 && 5
+  elsif int % 3 || 5
     "FizzBuzz"
   end
 end
